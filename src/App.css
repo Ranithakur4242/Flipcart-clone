@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Neon&display=swap');
+
+
+html {
+  /* font-family: 'Poppins', sans-serif;
+  font-family: 'Tilt Neon', cursive; */
+  font-family: Roboto,Arial,sans-serif;
+  margin: 0;
+  user-select: none;
+  position: relative;
+}
+
+.button{
+  padding: 0.2rem 0.7rem;
+  color: #fff;
+  background: #2874F0;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.button:hover{
+  background: #2875f0c5;
+}

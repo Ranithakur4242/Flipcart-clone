@@ -1,0 +1,242 @@
+.checkout-home-outer {
+    padding-top: 5rem;
+    min-height: 60vh;
+    background-color: #F1F3F6;
+}
+
+.checkout-home {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 90px;
+    position: relative;
+}
+
+.ch-left {
+    width: 919px;
+}
+
+.p-opt {
+    background: #fff;
+}
+
+.each-pm {
+    border-top: 1px solid #F1F3F6;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0.5rem;
+}
+
+.each-pm label {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.show {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.show button {
+    width: 197px;
+    border: none;
+    background-color: #FB641B;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    height: 48px;
+    border-radius: 3px;
+}
+
+.show input {
+    height: 48px;
+    border: none;
+    border-bottom: 2px solid #2874F0;
+}
+
+.show select {
+    border: none;
+    border-bottom: 1px solid #2874F0;
+    height: 30px;
+}
+
+.show select:focus {
+    outline: none;
+}
+
+.each-pm input[type="radio"] {
+    color: #878787;
+    width: 1rem;
+    font: inherit;
+    border: 2px solid #878787;
+    border-radius: 50%;
+}
+
+.p-opt .p-opt1 {
+    border-top: none;
+}
+
+.p-opt .p-opt3 label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-opt .p-opt3 .each-pm label .desc {
+    font-size: 0.9rem;
+    color: #878787;
+    font-weight: 400;
+}
+
+.p-opt .p-opt4 .each-pm label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-opt .p-opt4 .each-pm label .desc {
+    font-size: 0.9rem;
+    color: #878787;
+    font-weight: 400;
+}
+
+.p-opt .p-opt4 .each-pm .desc {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.t-item,
+.address {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    background: #fff;
+    margin: 0.5rem 0;
+    height: 80px;
+}
+
+.address .left .l-left,
+.t-item .left .l-left {
+    width: 3rem;
+    margin-right: 0.8rem;
+    display: flex;
+    align-items: flex-start;
+    height: 70px;
+}
+.left .l-right{
+    padding: 0.5rem 0;
+}
+.address button,.t-item button{
+    width: 118px;
+    height: 40px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #dadbde;
+    color: #2874F0;
+}
+.address .left,
+.t-item .left {
+    display: flex;
+}
+
+.address .left h6,
+.t-item .left h6 {
+    color: #878787;
+}
+
+.t-item .left p,
+.address .left p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+
+
+
+.address .left .l-left span,
+.t-item .left .l-left span {
+    background: #F1F3F6;
+    height: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 1.5rem;
+    border-radius: 3px;
+    color: #2874F0;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* checkout right section */
+
+.cart-home-right {
+    width: 365px;
+    background: #fff;
+    position: fixed;
+    right: 2rem;
+    height: 189px;
+}
+
+.cart-home-right hr {
+    border: 2px dotted #d3d4d4;
+    border-style: none none dotted;
+    color: #fff;
+    background-color: #fff;
+}
+
+.price-det {
+    border: 1px solid #d3d4d4;
+    border-bottom: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #878787;
+    padding-left: 1rem;
+}
+
+.pd-bot {
+    padding: 0 1rem;
+    border: 1px solid #d3d4d4;
+    font-size: 1rem;
+    font-weight: 450;
+}
+
+.pd-bot div {
+    margin-top: 0.5rem;
+}
+
+.pdb-tot-itm {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pdb-del-charg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.pdb-del-charg .right {
+    color: #388E3C;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+
+.total-amt {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

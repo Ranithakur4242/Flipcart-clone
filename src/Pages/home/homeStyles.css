@@ -1,0 +1,473 @@
+/* Navigation Section */
+.navigation-brand {
+    background-color: #2874F0;
+    margin: 0;
+    height: 55px;
+    display: flex;
+    padding: 0 181px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    align-items: center;
+}
+
+.home {
+    padding-top: 4rem;
+}
+
+.navigation .cart {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 55px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.brand-img {
+    width: 85px;
+}
+
+.navigation button {
+    color: #2874F0;
+    background: #fff;
+    width: 122px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    height: 2.2rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+    padding: 0 1rem;
+    width: 520px;
+    color: #2874F0;
+}
+
+.search-bar input {
+    outline: none;
+    border: none;
+    width: 500px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.navigation .cartvalue {
+    font-weight: 600;
+    font-size: 0.8rem;
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    top: -8px;
+    left: 8px;
+    width: 18px;
+    background: #FB641B;
+
+    position: absolute;
+}
+
+
+/* Redirector Page Styles */
+
+.redirector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 112px;
+    align-items: center;
+    padding: 0 3rem;
+    border-bottom: 1px solid #DEE0E3;
+
+}
+
+.red-comp {
+    cursor: pointer;
+}
+
+.redirector .red-comp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.redirector .red-comp img {
+    width: 64px;
+}
+
+.redirector .red-comp p {
+    margin: 0 8px;
+    padding: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Carousal item */
+
+
+.home .middle-section {
+    background: #F1F3F6;
+}
+
+.carousal-main .car-image {
+    height: 280px;
+    width: 100%;
+}
+
+.carousel-indicators {
+    visibility: hidden;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    opacity: 1;
+}
+
+.carousal-main {
+    height: 300px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background: #F1F3F6;
+}
+
+.icon {
+    background: #fff;
+    width: 2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    color: #000;
+}
+
+/* Icici offer section */
+
+.middle-section .icici {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0.8rem 0.8rem 0.8rem;
+    height: 119px;
+}
+
+.middle-section .icici img {
+    height: 85px;
+    width: 807px;
+}
+
+/* Middle Top Offer Section */
+
+.to-left {
+    width: 237px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+}
+
+.to-left .top {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: center;
+    position: relative;
+    height: 241px;
+}
+
+.to-left .top .top-itm {
+    width: 237px;
+    position: absolute;
+    bottom: 0;
+}
+
+.to-left .bottom {
+    position: relative;
+    height: 120px;
+}
+
+.to-left .bottom img {
+    width: 237px;
+    height: 120px;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+.top-offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 363px;
+    background: #fff;
+    margin: 0 0.8rem 0.8rem 0.8rem;
+}
+
+.to-right {
+    height: 358px;
+    width: 231px;
+}
+
+.to-right img {
+    height: 358px;
+    width: 231px;
+}
+
+.top-offer-card {
+    padding: 1rem;
+}
+
+.top-offer-card .image {
+    height: 210px;
+}
+
+.top-offer-card .discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-offer-card .discription p {
+    margin: 0;
+    padding: 5px;
+}
+
+.top-offer-card .discription .name {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.top-offer-card .discription .offer {
+    color: #388E3C;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.top-offer-card .discription .category {
+    color: #888888;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+/* Bank Offer Multiple card */
+
+.bank-offer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bank-offer-card .image img {
+    height: 250px;
+    width: 465px;
+    box-shadow: 5px 5px 22px #88888864;
+    border-radius: 3px;
+}
+
+.bank-offer-card .image {
+    padding: 0.5px;
+}
+
+
+/* Footer Section */
+
+.footer {
+    height: 324px;
+    background: #172337;
+    color: #FFF;
+    margin-top: 2rem;
+    padding: 2rem;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.footer-left td {
+    width: 180px;
+}
+
+.footer-left table {
+    margin: 0 2rem;
+    padding-top: 0;
+    border-collapse: separate;
+    width: 674px;
+    border-spacing: 0;
+}
+
+.footer-left table thead {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #878787;
+}
+
+.footer-left {
+    width: 819px;
+}
+
+.footer-left table thead tr td {
+    padding-bottom: 0.5rem;
+
+}
+
+.footer-left table tbody {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.footer-left table tbody td {
+    height: 1rem;
+}
+
+.horizontal {
+    background: #fff;
+    width: 1px;
+    height: 160px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.footer-top {
+    height: 224px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-bootom {
+    height: 67px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-bootom .fb-img {
+    height: 38px;
+    width: 395px;
+    margin-bottom: 15px;
+}
+
+.footer-right {
+    width: 623px;
+}
+
+.footer-right table {
+    margin: 0 2rem;
+}
+
+.footer-right table tbody {
+    width: 518px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.footer-right table thead {
+    width: 518px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #878787;
+}
+
+.footer-right td {
+    padding: 0.4rem 1rem;
+}
+
+
+
+/* Login Page */
+
+.login-dialogue {
+    display: flex;
+    flex-direction: row;
+    height: 600;
+}
+
+.login-dialogue .ld-left {
+    background: #2874F0;
+    width: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 480px;
+    color: #fff;
+}
+
+.login-dialogue .ld-right {
+    padding: 3.5rem 2rem;
+    background: #fff;
+
+}
+
+
+
+.login-dialogue .ld-left p {
+    font-weight: 400;
+}
+
+.login-dialogue .ld-left img {
+    width: 174px;
+}
+
+.login-dialogue .ld-right p {
+    font-size: 0.8rem;
+    color: #878787;
+    font-weight: 500;
+}
+
+.login-dialogue .ld-right span {
+    color: #2874F0;
+    cursor: pointer;
+}
+
+.login-dialogue .ld-right button {
+    height: 57px;
+    width: 100%;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    background: #FB641B;
+}
